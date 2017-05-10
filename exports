@@ -1,1 +1,4 @@
-/data		*(rw,no_root_squash,no_subtree_check,insecure_locks,async,insecure)
+/data		*(rw,fsid=0,no_root_squash,no_subtree_check,insecure_locks,async,insecure)
+/data/films		*(rw,no_root_squash,no_subtree_check,insecure_locks,async,insecure)
+/data/shows		*(rw,no_root_squash,no_subtree_check,insecure_locks,async,insecure)
+/data/music		*(rw,no_root_squash,no_subtree_check,insecure_locks,async,insecure)
