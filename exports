@@ -1,1 +1,1 @@
-/data		*(rw,fsid=0,no_root_squash,no_subtree_check,insecure_locks,async,insecure,crossmnt)
+/data		*(rw,nohide,no_root_squash,no_subtree_check,insecure_locks,async,insecure)
